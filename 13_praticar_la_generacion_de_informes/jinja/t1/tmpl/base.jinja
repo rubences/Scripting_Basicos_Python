@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		{% block head %}
+			<title>{% block titulo %}{% endblock %}</title>
+		{% endblock %}
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+		<div id="header">{% block encabezado %}{% endblock %}</div>
+		<hr/>
+		{% include "nav.html" %}
+		<hr/>
+		<div id="content">{% block contenido %}{% endblock %}</div>
+		<footer> 
+			<hr/>
+			{% block pie_de_pagina %} {% endblock %}
+			&copy; Copyright Christophe BONNET 2020 - Página generada el {{ time_stamp }}
+		</footer>
+		</div>
+	</body>
+</html>
+
+
