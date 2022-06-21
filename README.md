@@ -1,20 +1,28 @@
 # Scripting_Basicos_Python
 
+dirigido a ingenieros de sistemas que deseen escribir sus propias herramientas para administrar un sistema utilizando el lenguaje Python. Organizado en tres partes:
+
+Después de algunos capítulos para presentar el entorno de trabajo y recordar los conceptos básicos del lenguaje Python, la primera parte presenta los principios de la Programación orientada a objetos en Python, así como la librería estándar de Python.
+
+En la segunda parte se basa en cómo diseñar herramientas para recuperar información del sistema, acceder a bases de datos, utilizar diferentes formatos de archivo (.odt, .csv, .ini, .tar, .zip…), generar documentos en formato texto, CSV o HTML e incluso generar datos aleatorios, etc. Al final de esta parte, la simulación de la actividad de una pequeña empresa gestora,que permite al probar los scripts que facilitan la toma de pedidos, sus entregas y la gestión de stock.
+
+La última parte proporciona son una serie de consejos y ejemplos concretos, que le permitirán implementar técnicas más avanzadas
+
 ## El entorno de trabajo
 1. ¿ Python2 o Python3 ?
 2. El entorno de trabajo
 3. Un terminal y el intérprete Python
 4. Configuración del entorno Python
-4.1 Etapa 1: localice el archivo binario Python que le interesa
-4.2 Etapa 2: compruebe la presencia del comando pip que acompaña a python
-4.3 Etapa 3: compruebe el módulo virtualenv
-4.4 Etapa 4: instale virtualenv wrapper
+  4.1 Etapa 1: localice el archivo binario Python que le interesa
+  4.2 Etapa 2: compruebe la presencia del comando pip que acompaña a python
+  4.3 Etapa 3: compruebe el módulo virtualenv
+  4.4 Etapa 4: instale virtualenv wrapper
 5. Las otras herramientas necesarias
 ## El lado funcional clásico de Python
 1. Introducción
 2. Primeros pasos
-2.1 El comando python
-2.2 La indentación o sangrado como sintaxis
+  2.1 El comando python
+  2.2 La indentación o sangrado como sintaxis
 ## Algunas instrucciones básicas
 1. Introducción
 2. Los operadores
@@ -24,54 +32,54 @@
 ## Los tipos de datos en Python
 1. Introducción
 2. Los booleanos
-2.1 Los operadores booleanos
-2.2 Las comparaciones lógicas
+  2.1 Los operadores booleanos
+  2.2 Las comparaciones lógicas
 3. Los numéricos
-3.1 Los números enteros
-3.2 Los números en coma flotante
-3.3 Las operaciones
+  3.1 Los números enteros
+  3.2 Los números en coma flotante
+  3.3 Las operaciones
 4. Los alfanuméricos
-4.1 Las operaciones aplicables a las cadenas de caracteres
-4.2 Les métodos aplicables a las cadenas de caracteres
-4.3 Los modificadores de cadenas o "string modifiers"
+  4.1 Las operaciones aplicables a las cadenas de caracteres
+  4.2 Les métodos aplicables a las cadenas de caracteres
+  4.3 Los modificadores de cadenas o "string modifiers"
 5. Los contenedores o secuenciales
-5.1 Las listas
-5.2 Los diccionarios
-5.3 Las tuplas
-5.4 Los sets
-5.5 Los frozensets
+  5.1 Las listas
+  5.2 Los diccionarios
+  5.3 Las tuplas
+  5.4 Los sets
+  5.5 Los frozensets
 6. Otros tipos de datos
 7. Resumen
 ## El lenguaje Python
 1. Introducción
 2. La función print()
-2.1 Print() formateado C-STYLE
-2.2 Print() formateo cadena.format()
-2.3 Print() las otras opciones
+  2.1 Print() formateado C-STYLE
+  2.2 Print() formateo cadena.format()
+  2.3 Print() las otras opciones
 3. Las estructuras condicionales
 4. Los bucles
-4.1 Algunos ejemplos simples
-4.2 La función range()
-4.3 Un "else" en los bucles
-4.4 sorted() y sort()
-4.5 enumerate()
-4.6 La asignación paralela en los bucles
-4.7 Los diccionarios y la función items()
-4.8 Las listas de comprensión
+  4.1 Algunos ejemplos simples
+  4.2 La función range()
+  4.3 Un "else" en los bucles
+  4.4 sorted() y sort()
+  4.5 enumerate()
+  4.6 La asignación paralela en los bucles
+  4.7 Los diccionarios y la función items()
+  4.8 Las listas de comprensión
 5. Las funciones
-5.1 Los argumentos de funciones con Python
-5.2 Las funciones y el alcance de las variables
-5.3 La noción de paso de argumentos por referencia
+  5.1 Los argumentos de funciones con Python
+  5.2 Las funciones y el alcance de las variables
+  5.3 La noción de paso de argumentos por referencia
 6. Los módulos y los paquetes
-6.1 Los espacios de nombres
-6.2 Los paquetes o packages
-6.3 La búsqueda de los módulos y paquetes
-6.4 El archivo __main__.py
-6.5 Ejemplo con la gestión de un restaurante
+  6.1 Los espacios de nombres
+  6.2 Los paquetes o packages
+  6.3 La búsqueda de los módulos y paquetes
+  6.4 El archivo __main__.py
+  6.5 Ejemplo con la gestión de un restaurante
 7. Las excepciones y la gestión de errores
-7.1 Las instrucciones try ... except ... finally
-7.2 La instrucción assert
-7.3 Desencadenar excepciones
+  7.1 Las instrucciones try ... except ... finally
+  7.2 La instrucción assert
+  7.3 Desencadenar excepciones
 8. Las entradas/salidas (archivo y otros)
 9. La instrucción With
 10. Ejemplo de script: hdump
@@ -87,90 +95,90 @@
 8. La sobrecarga de funciones
 9. La herencia
 10. Ejemplos de scripts
-10.1 Añadimos el formato HTML
-10.2 Añadimos la etiqueta <table>
-10.3 Añadimos el formato CSV
+  10.1 Añadimos el formato HTML
+  10.2 Añadimos la etiqueta <table>
+  10.3 Añadimos el formato CSV
 11. Resumen
 ## Librería estándar y algunas otras
 1. Introducción
 2. El comando pip
 3. Los módulos sys y os
-3.1 El módulo sys
-3.2 El módulo os
+  3.1 El módulo sys
+  3.2 El módulo os
 4. Las opciones de la línea de comandos
 5. La interceptación de señales
 6. Los archivos temporales
 7. Los módulos para las operaciones en los archivos y directorios
-7.1 os.path
-7.2 shutil
-7.2.1 filecmp
-7.3 path.py
-7.4 pathlib
+  7.1 os.path
+  7.2 shutil
+  7.2.1 filecmp
+  7.3 path.py
+  7.4 pathlib
 8. La gestión de los procesos y subprocesos
-8.1 Subprocess.run()
-8.2 subprocess.popen()
-8.3 Enviar un comando más complejo y recuperar la salida
+  8.1 Subprocess.run()
+  8.2 subprocess.popen()
+  8.3 Enviar un comando más complejo y recuperar la salida
 8.4 Multiprocessing - El paralelismo de procesos
 9. Mathplotlib
 10. Las expresiones regulares (parece magia)
-10.1 Ejemplo: recuperar la información del estadodel sistema con sar (system activity report)
-10.2 Ejemplo: recuperar la informaciónde la memoria de los procesos
+  10.1 Ejemplo: recuperar la información del estado del sistema con sar (system activity report)
+  10.2 Ejemplo: recuperar la informaciónde la memoria de los procesos
 11. Las fechas y el tiempo (regreso al futuro)
-11.1 stdlib: calendar, datetime, dateutil, time
-11.2 Arrow
+  11.1 stdlib: calendar, datetime, dateutil, time
+  11.2 Arrow
 12. El módulo logging
 13. El acceso a los archivos en modo binario y el módulo struct
 14. La generación de datos aleatorios
 15. El acceso a las bases de datos
-15.1 Las bases de datos "SQL"
-15.2 Las bases de datos "NoSQL"
+  15.1 Las bases de datos "SQL"
+  15.2 Las bases de datos "NoSQL"
 16. Los ORM u Object-Relationnal Mapping
-16.1 SQLAlchemy
-16.2 Los otros ORM
+  16.1 SQLAlchemy
+  16.2 Los otros ORM
 17. Red
-17.1 Un servidor web en una línea de comandos
-17.2 Enviar correos electrónico
-17.3 Python y ssh
-17.4 La transferencia de archivos con ftplib
-17.5 telnet lib
+  17.1 Un servidor web en una línea de comandos
+  17.2 Enviar correos electrónico
+  17.3 Python y ssh
+  17.4 La transferencia de archivos con ftplib
+  17.5 telnet lib
 18. Python y la red de redes: Internet
-18.1 Urllib: requests
-18.2 Beautiful soup
+  18.1 Urllib: requests
+  18.2 Beautiful soup
 19. Herramientas
-19.1 Pexpect
-19.2 Cmd
-19.3 shlex - Análisis léxico simple
-19.4 El módulo humanfriendly
+  19.1 Pexpect
+  19.2 Cmd
+  19.3 shlex - Análisis léxico simple
+  19.4 El módulo humanfriendly
 20. Resumen
 ## Ir mas lejos con el lenguaje Python y la POO
 1. Introducción
 2. Algunos conceptos de objeto esenciales
-2.1 El polimorfismo
-2.2 La herencia múltiple
-2.3 El singleton
-2.4 La fábrica de objetos
-2.5 El cierre o closure en inglés
+  2.1 El polimorfismo
+  2.2 La herencia múltiple
+  2.3 El singleton
+  2.4 La fábrica de objetos
+  2.5 El cierre o closure en inglés
 3. Los métodos especiales de instancias
-3.1 Las funciones especiales clásicas
-3.2 La sobrecarga de los operadores
+  3.1 Las funciones especiales clásicas
+  3.2 La sobrecarga de los operadores
 4. El administrador de contexto (with) __enter__, __exit__
 5. Los objetos mutables y no mutables
-5.1 Los mutables
-5.2 Los no mutables
+  5.1 Los mutables
+  5.2 Los no mutables
 6. Información adicional sobre las clases en Python
-6.1 Los atributos implícitos
-6.2 Las funciones y clases incluidas
-6.3 Los atributos estáticos y métodos estáticos
-6.4 Los __slots__ para el rendimiento
+  6.1 Los atributos implícitos
+  6.2 Las funciones y clases incluidas
+  6.3 Los atributos estáticos y métodos estáticos
+  6.4 Los __slots__ para el rendimiento
 7. Las docstrings - cadenas de documentación
-7.1 Definición
-7.2 Uso
-7.3 Generación de documentación
-7.4 Pruebas
+  7.1 Definición
+  7.2 Uso
+  7.3 Generación de documentación
+  7.4 Pruebas
 8. Los decoradores
 9. Los iteradores, generadores y otras expresiones generadoras
-9.1 Los iteradores
-9.2 Los generadores
+  9.1 Los iteradores
+  9.2 Los generadores
 10. Gestionar sus propias excepciones
 11. Las funciones nativas
 11.1 Las funciones nativas in clasificables
